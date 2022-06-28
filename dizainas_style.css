@@ -284,7 +284,6 @@ main {
     width: 100%;
 }
 
-
 .bottom-contacts-text p {
     text-align: center;
     font-weight: 500;
@@ -377,6 +376,7 @@ footer .back-top {
     }
     .content {
         order:2;
+        text-align: center;
     }
     .content input, textarea {
         width:96%;
@@ -419,8 +419,15 @@ footer .back-top {
 
 @media screen and (max-width:480px) {
     .title-container a {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    .send-message2 a  {
+        padding: 15px 25px;
+    }
+    .send-message2  {
+        margin-left: 5px;
     }
     .navigation ul {
         margin-top: 20px;
